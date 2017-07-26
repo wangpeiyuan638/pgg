@@ -1,0 +1,74 @@
+/*公共样式*/
+
+li{
+	list-style: none;
+	text-indent: 20px;
+	line-height: 26px;
+}
+li a{
+	display: block;
+	line-height: 26px;
+	width: 100%;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.index{
+	width: 1100px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	min-height: 760px;
+}
+/*头部样式*/
+.index .header{
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	border-bottom: 1px solid #666;
+	overflow: hidden;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: #fd9e2f;
+}
+.index .header .h-left{
+	overflow: hidden;
+}
+.index .header .h-left img{
+	width: 96px;
+	height: 46px;
+	border: 1px solid #666;
+	margin-top: 10px;
+	box-sizing: border-box;
+	margin-right: 16px;
+}
+.index .header .h-right .welcome{
+	margin-right: 30px;
+	color: #fff;
+}
+strong{
+	color: #fff;
+	font-weight: normal;
+}
+
+/*主内容区样式*/
+.index .content{
+	overflow: hidden;
+	margin-top: 40px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.index .content .c-left{
+	width: 168px;
+	height: 430px;
+	border: 1px solid #666;
+	margin-right: 20px;
+}
+.active{
+	background: #fd9e2f;
+}
+.child{
+	display: none;
+}

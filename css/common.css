@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 276198 */
+  src: url('https://at.alicdn.com/t/font_iifli2vztm1v2t9.eot');
+  src: url('https://at.alicdn.com/t/font_iifli2vztm1v2t9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_iifli2vztm1v2t9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_iifli2vztm1v2t9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_iifli2vztm1v2t9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:"iconfont";
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale; 
+    padding-left:20px
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+button{
+	background: #fd9e2f;
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	border: 1px solid #fd9e2f;
+	border-radius: 5px;	
+}
+.fl{
+	float: left;
+}
+.find{
+	border: 1px solid #666;
+	width: 264px;
+	overflow: hidden;
+	border-radius: 20px;
+	display: inline-block;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.find img{
+	float: right;
+	margin-right: 10px;
+}
+.search{
+	width: 200px;
+	height: 30px;
+	border: none;
+	background: none;
+	outline: none;
+}
+.add{
+	width: 70px;
+	height: 30px;
+	background: #fff;
+	outline: none;
+	border: 1px solid #666;
+	border-radius: 5px;
+	float: right;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #666;
+	margin-top: 20px;
+	table-layout: fixed;
+}
+table th{
+	font-weight: normal;
+	background: #999999;
+}
+table tr{
+	/*border: 1px solid #666;*/
+	height: 24px;
+}
+table td,
+table th{
+	text-align: center;
+	border-right: 1px solid #666;
+	border-bottom: 0;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+table tbody tr:nth-child(2n){
+	background: #eeeeee;
+}
+table td img{
+	width: 30px;
+	height: 30px;
+}
+.page{
+	overflow: hidden;
+	margin-top: 40px;
+	text-align: right;
+	padding-left: 500px;
+}
+.page li{
+	float: left;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #000;
+	margin: 0 5px;
+	font-size: 12px;
+	cursor: pointer;
+
+}
+.page .pre,
+.page .next{
+	width: 60px;
+}
+.page .light{
+	background: pink;
+}

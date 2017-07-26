@@ -1,0 +1,32 @@
+.artical-list{
+	margin-top: 20px;
+}
+.content{
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.content img{
+	width: 200px;
+	height: 200px;
+	margin-right: 100px;
+}
+.content .center input{
+	height: 25px;
+	width: 220px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-right: 200px;
+}
+.content .text{
+	width: 280px;
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.addbtn{
+	float: right;
+}
+.del button{
+	margin-top: 100px;
+}

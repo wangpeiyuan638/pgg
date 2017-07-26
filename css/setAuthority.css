@@ -1,0 +1,33 @@
+.content{
+	text-align: center;
+}
+.content input,select{
+	width: 200px;
+	height: 25px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+.status input{
+	width: 30px;
+	height: 13px;
+}
+.status input:nth-child(1){
+	margin-left: 60px;
+}
+.yes{
+	text-align: center;
+}
+.yes button{
+	width: 150px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+.operate{
+	margin-top: 20px;
+	width: 846px;
+	height: 266px;
+	border: 1px solid #666;
+}

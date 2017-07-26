@@ -1,0 +1,17 @@
+.content{
+	text-align: center;
+}
+input,select{
+	width: 200px;
+	height: 25px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+.yes button{
+	width: 150px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin-top: 136px;
+}

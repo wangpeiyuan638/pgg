@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.list{
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+.list li{
+	float: left;
+	list-style: none;
+	width: 155px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	border: 1px solid #666;
+
+}
+.list li:nth-child(2){
+	margin: 0 190px;
+}

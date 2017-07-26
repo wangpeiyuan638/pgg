@@ -1,0 +1,27 @@
+.addrole{
+	text-align: center;
+	padding-top: 45px;
+}
+.addrole .role label{
+	display: block;
+}
+.addrole .role label input{
+	width: 216px;
+	height: 24px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+.addrole .state{
+	margin-top: 20px;
+	margin-bottom: 188px;
+}
+.addrole .state input{
+	margin-left: 60px;
+}
+.addrole .yes button{
+	width: 150px;
+	height: 28px;
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+}

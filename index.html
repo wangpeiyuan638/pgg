@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pgg后台管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+	<body>
+	<!-- https://run.mockplus.cn/hB0gNY1yBg2ONrGP/index.html -->
+	<!-- http://192.168.1.109:8080/petsocial/backstageHome -->
+		<div class="index">
+			<!-- 头部 -->
+			<div class="header">
+				<div class="h-left fl">
+					<img class="fl">
+					<strong class="fl">PGG后台管理系统</strong>
+				</div>
+				<div class="h-right fr">
+					<span class="iconfont" style="color: #fff;font-weight: bolder;">&#xe67c;</span>
+					<span class="welcome">欢迎登陆</span>
+					<a href="login.html"><span class="iconfont" style="color: #fff;">&#xe62f;</span></a>
+				</div>
+			</div>
+			<!-- 主内容区 -->
+			<div class="content">
+				<div class="c-left fl">
+					<ul>
+						<li class="active l1"><a href="html/home.html" target="mainframe">首页</a></li>
+						<li id="addrole" class="l2"><a href="html/authority.html" target="mainframe">权限管理</a>
+							<ul class="child comshow addrole"><li><a href="html/addRole.html" target="mainframe">-添加角色</a></li></ul>
+						</li>
+						<li class="l3"><a href="html/user.html" target="mainframe">用户管理</a></li>
+						<li class="l4"><a href="html/pet.html" target="mainframe">宠物管理</a></li>
+						<li class="l5"><a href="html/activity.html" target="mainframe">活动管理</a></li>
+						<li id="note" class="l6"><a href="html/note.html" target="mainframe">帖子管理</a>
+							<ul class="child note"><li><a>-帖子评论管理</a></li></ul>
+						</li>
+						<li id="comodity" class="l7"><a href="html/comodity.html" target="mainframe">商业管理</a>
+							<ul class="child comodity "><li><a>-商业评论管理</a></li></ul>
+						</li>
+						<li id="addartical" class="l8"><a href="html/artical.html" target="mainframe">文章管理</a>
+							<ul class="child comshow addartical"><li><a href="html/addartical.html" target="mainframe">-添加文章</a></li></ul>
+						</li>
+						<li class="l9"><a href="html/marker.html" target="mainframe">里程碑管理</a></li>
+					</ul>
+				</div>
+				<div class="c-right fl" >
+					<div>
+		                <iframe  name="mainframe" frameborder="0" width="860px"  height="1800px" scrolling="no"  src="html/home.html">
+		                </iframe>
+		            </div>
+				</div>
+			</div>
+		</div>	
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

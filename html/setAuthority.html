@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>权限设置</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/setAuthority.css">
+</head>
+<body>
+	<div><a href="authority.html"><img src="../images/back.png"></a><a href="authority.html" style="padding-left: 16px;">返回</a></div>
+	<div class="content">
+		<div><span>角色名称</span> <input type="text" class="account"></div>
+		<div><span>角色描述</span> <input type="text" class="description"></div>
+		<div><span>账号名称</span> <input type="text" class="alias"></div>
+		<div><span>登陆密码</span> <input type="password" class="password"></div>
+		<div class="status"><span>状态</span><label><input type="radio" class="on" name="radio"><span>开启</span></label>
+		<label><input type="radio" class="off" name="radio"><span>关闭</span></label>
+		</div>
+	</div>
+	<div>
+		<p><span>操作权限</span></p>
+		<div class="operate">
+			<ul>
+				<li><label><input type="checkbox" name="checkbox" class="authority"><span>权限管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="user"><span>用户管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="pet"><span>宠物管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="activity"><span>活动管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="note"><span>帖子管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="comodity"><span>商业管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="artical"><span>文章管理</span></label></li>
+				<li><label><input type="checkbox" name="checkbox" class="marker"><span>里程碑管理</span></label></li>
+			</ul>
+		</div>
+	</div>
+	<div class="yes"><button>确定新增</button></div>
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/setAuthority.js"></script>
+</body>
+</html>
